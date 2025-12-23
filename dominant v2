@@ -1,0 +1,366 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 33 | Scripts: 0 | Modules: 0 | Tags: 0
+local LMG2L = {};
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["BorderSizePixel"] = 0;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(234, 234, 234);
+LMG2L["Frame_2"]["Size"] = UDim2.new(0, 620, 0, 430);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0, 482, 0, 90);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame
+LMG2L["Frame_3"] = Instance.new("Frame", LMG2L["Frame_2"]);
+LMG2L["Frame_3"]["BorderSizePixel"] = 0;
+LMG2L["Frame_3"]["BackgroundColor3"] = Color3.fromRGB(223, 223, 223);
+LMG2L["Frame_3"]["Size"] = UDim2.new(0, 620, 0, 24);
+LMG2L["Frame_3"]["Position"] = UDim2.new(0, 0, 0, 44);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_4"] = Instance.new("TextButton", LMG2L["Frame_3"]);
+LMLMG2LG2L["TextButton_4"]["TextSize"] = 12;
+LMG2L["TextButton_4"]["BackgroundColor3"] = Color3.fromRGB(235, 235, 235);
+LMG2L["TextButton_4"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_4"]["Size"] = UDim2.new(0, 94, 0, 18);
+LMG2L["TextButton_4"]["BorderColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextButton_4"]["Text"] = [[executor]];
+LMG2L["TextButton_4"]["Position"] = UDim2.new(0, 2, 0, 4);
+LMG2L["TextButton_4"].MouseButton1Click:Connect(function()
+LMG2L["Frame_e"]["Visible"] = false
+end)
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_5"] = Instance.new("TextButton", LMG2L["Frame_3"]);
+LMG2L["TextButton_5"]["TextSize"] = 12;
+LMG2L["TextButton_5"]["BackgroundColor3"] = Color3.fromRGB(235, 235, 235);
+LMG2L["TextButton_5"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_5"]["Size"] = UDim2.new(0, 88, 0, 18);
+LMG2L["TextButton_5"]["BorderColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextButton_5"]["Text"] = [[Admin Panel]];
+LMG2L["TextButton_5"]["Position"] = UDim2.new(0, 94, 0, 4);
+LMG2L["TextButton_5"].MouseButton1Click:Connect(function()
+LMG2L["Frame_e"]["Visible"] = true
+end)
+
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.ImageLabel
+LMG2L["ImageLabel_6"] = Instance.new("ImageLabel", LMG2L["Frame_3"]);
+LMG2L["ImageLabel_6"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageLabel_6"]["Size"] = UDim2.new(0, 36, 0, 34);
+LMG2L["ImageLabel_6"]["Position"] = UDim2.new(0, 12, 0, -36);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.ImageLabel.TextLabel
+LMG2L["TextLabel_7"] = Instance.new("TextLabel", LMG2L["ImageLabel_6"]);
+LMG2L["TextLabel_7"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_7"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextLabel_7"]["BackgroundTransparency"] = 99;
+LMG2L["TextLabel_7"]["Size"] = UDim2.new(0, 360, 0, 124);
+LMG2L["TextLabel_7"]["Text"] = [[Dominant Executor]];
+LMG2L["TextLabel_7"]["Position"] = UDim2.new(0, -80, 0, -44);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.ImageLabel.TextLabel
+LMG2L["TextLabel_8"] = Instance.new("TextLabel", LMG2L["ImageLabel_6"]);
+LMG2L["TextLabel_8"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_8"]["BackgroundTransparency"] = 9999;
+LMG2L["TextLabel_8"]["Size"] = UDim2.new(0, 180, 0, 88);
+LMG2L["TextLabel_8"]["Text"] = [[-                  []                   x]];
+LMG2L["TextLabel_8"]["Position"] = UDim2.new(0, 430, 0, -30);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.TextButton
+LMG2L["TextButton_9"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton_9"]["TextWrapped"] = true;
+LMG2L["TextButton_9"]["TextSize"] = 14;
+LMG2L["TextButton_9"]["BackgroundColor3"] = Color3.fromRGB(242, 242, 242);
+LMG2L["TextButton_9"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_9"]["Size"] = UDim2.new(0, 102, 0, 36);
+LMG2L["TextButton_9"]["BorderColor3"] = Color3.fromRGB(193, 193, 193);
+LMG2L["TextButton_9"]["Text"] = [[exe]];
+LMG2L["TextButton_9"]["Position"] = UDim2.new(0, 14, 0, 296);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.TextButton
+LMG2L["TextButton_a"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton_a"]["TextWrapped"] = true;
+LMG2L["TextButton_a"]["TextSize"] = 14;
+LMG2L["TextButton_a"]["TextColor3"] = Color3.fromRGB(28, 43, 54);
+LMG2L["TextButton_a"]["BackgroundColor3"] = Color3.fromRGB(242, 242, 242);
+LMG2L["TextButton_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_a"]["Size"] = UDim2.new(0, 102, 0, 36);
+LMG2L["TextButton_a"]["BorderColor3"] = Color3.fromRGB(193, 193, 193);
+LMG2L["TextButton_a"]["Text"] = [[clear]];
+LMG2L["TextButton_a"]["Position"] = UDim2.new(0, 14, 0, 342);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.TextButton
+LMG2L["TextButton_b"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton_b"]["TextWrapped"] = true;
+LMG2L["TextButton_b"]["TextSize"] = 14;
+LMG2L["TextButton_b"]["BackgroundColor3"] = Color3.fromRGB(242, 242, 242);
+LMG2L["TextButton_b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_b"]["Size"] = UDim2.new(0, 102, 0, 36);
+LMG2L["TextButton_b"]["BorderColor3"] = Color3.fromRGB(193, 193, 193);
+LMG2L["TextButton_b"]["Text"] = [[load]];
+LMG2L["TextButton_b"]["Position"] = UDim2.new(0, 14, 0, 386);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.TextBox
+LMG2L["TextBox_c"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox_c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+LMG2L["TextBox_c"]["TextWrapped"] = true;
+LMG2L["TextBox_c"]["TextSize"] = 14;
+LMG2L["TextBox_c"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+LMG2L["TextBox_c"]["BackgroundColor3"] = Color3.fromRGB(242, 242, 242);
+LMG2L["TextBox_c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox_c"]["Size"] = UDim2.new(0, 592, 0, 210);
+LMG2L["TextBox_c"]["Position"] = UDim2.new(0, 14, 0, 74);
+LMG2L["TextBox_c"]["BorderColor3"] = Color3.fromRGB(194, 194, 194);
+LMG2L["TextBox_c"]["Text"] = [[--by ridohx]];
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.TextBox
+LMG2L["TextBox_d"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox_d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+LMG2L["TextBox_d"]["TextWrapped"] = true;
+LMG2L["TextBox_d"]["TextSize"] = 14;
+LMG2L["TextBox_d"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+LMG2L["TextBox_d"]["BackgroundColor3"] = Color3.fromRGB(242, 242, 242);
+LMG2L["TextBox_d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox_d"]["Size"] = UDim2.new(0, 480, 0, 128);
+LMG2L["TextBox_d"]["Position"] = UDim2.new(0, 126, 0, 296);
+LMG2L["TextBox_d"]["BorderColor3"] = Color3.fromRGB(194, 194, 194);
+LMG2L["TextBox_d"]["Text"] = [[]];
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame
+LMG2L["Frame_e"] = Instance.new("Frame", LMG2L["Frame_2"]);
+LMG2L["Frame_e"]["Visible"] = false;
+LMG2L["Frame_e"]["BorderSizePixel"] = 0;
+LMG2L["Frame_e"]["BackgroundColor3"] = Color3.fromRGB(234, 235, 234);
+LMG2L["Frame_e"]["Size"] = UDim2.new(0, 604, 0, 360);
+LMG2L["Frame_e"]["Position"] = UDim2.new(0, 6, 0, 68);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_f"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_f"]["TextSize"] = 15;
+LMG2L["TextButton_f"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_f"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_f"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_f"]["Text"] = [[RC7 CLOUD]];
+LMG2L["TextButton_f"]["Position"] = UDim2.new(0, 8, 0, 6);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_10"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_10"]["TextSize"] = 15;
+LMG2L["TextButton_10"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_10"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_10"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_10"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_10"]["Text"] = [[MJONIR]];
+LMG2L["TextButton_10"]["Position"] = UDim2.new(0, 8, 0, 56);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_11"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_11"]["TextSize"] = 15;
+LMG2L["TextButton_11"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_11"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_11"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_11"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_11"]["Text"] = [[IOR]];
+LMG2L["TextButton_11"]["Position"] = UDim2.new(0, 8, 0, 106);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_12"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_12"]["TextSize"] = 15;
+LMG2L["TextButton_12"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_12"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_12"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_12"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_12"]["Text"] = [[FLY TOOL]];
+LMG2L["TextButton_12"]["Position"] = UDim2.new(0, 8, 0, 156);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_13"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_13"]["TextSize"] = 15;
+LMG2L["TextButton_13"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_13"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_13"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_13"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_13"]["Text"] = [[DISCO]];
+LMG2L["TextButton_13"]["Position"] = UDim2.new(0, 122, 0, 6);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_14"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_14"]["TextSize"] = 15;
+LMG2L["TextButton_14"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_14"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_14"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_14"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_14"]["Text"] = [[OBAMA]];
+LMG2L["TextButton_14"]["Position"] = UDim2.new(0, 122, 0, 56);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_15"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_15"]["TextSize"] = 15;
+LMG2L["TextButton_15"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_15"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_15"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_15"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_15"]["Text"] = [[MESSENGE]];
+LMG2L["TextButton_15"]["Position"] = UDim2.new(0, 122, 0, 106);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_16"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_16"]["TextSize"] = 15;
+LMG2L["TextButton_16"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_16"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_16"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_16"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_16"]["Text"] = [[FIRE ALL]];
+LMG2L["TextButton_16"]["Position"] = UDim2.new(0, 122, 0, 156);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_17"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_17"]["TextSize"] = 15;
+LMG2L["TextButton_17"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_17"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_17"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_17"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_17"]["Text"] = [[THOMAS]];
+LMG2L["TextButton_17"]["Position"] = UDim2.new(0, 234, 0, 6);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_18"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_18"]["TextSize"] = 15;
+LMG2L["TextButton_18"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_18"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_18"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_18"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_18"]["Text"] = [[FLING ALL]];
+LMG2L["TextButton_18"]["Position"] = UDim2.new(0, 234, 0, 56);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_19"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_19"]["TextSize"] = 15;
+LMG2L["TextButton_19"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_19"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_19"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_19"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_19"]["Text"] = [[TELEKENESIS]];
+LMG2L["TextButton_19"]["Position"] = UDim2.new(0, 234, 0, 106);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_1a"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_1a"]["TextSize"] = 15;
+LMG2L["TextButton_1a"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_1a"]["Size"] = UDim2.new(0, 108, 0, 44);
+LMG2L["TextButton_1a"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_1a"]["Text"] = [[BOMB]];
+LMG2L["TextButton_1a"]["Position"] = UDim2.new(0, 234, 0, 156);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_1b"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_1b"]["TextSize"] = 15;
+LMG2L["TextButton_1b"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_1b"]["Size"] = UDim2.new(0, 222, 0, 42);
+LMG2L["TextButton_1b"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_1b"]["Text"] = [[SPARTA]];
+LMG2L["TextButton_1b"]["Position"] = UDim2.new(0, 358, 0, 8);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_1c"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_1c"]["TextSize"] = 15;
+LMG2L["TextButton_1c"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_1c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_1c"]["Size"] = UDim2.new(0, 222, 0, 42);
+LMG2L["TextButton_1c"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_1c"]["Text"] = [[TOXIC]];
+LMG2L["TextButton_1c"]["Position"] = UDim2.new(0, 358, 0, 56);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_1d"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_1d"]["TextSize"] = 15;
+LMG2L["TextButton_1d"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_1d"]["Size"] = UDim2.new(0, 222, 0, 42);
+LMG2L["TextButton_1d"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_1d"]["Text"] = [[ARAB]];
+LMG2L["TextButton_1d"]["Position"] = UDim2.new(0, 358, 0, 104);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_1e"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+["TextButton_1e"]["TextSize"] = 15;
+LMG2L["TextButton_1e"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_1e"]["Size"] = UDim2.new(0, 222, 0, 42);
+LMG2L["TextButton_1e"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_1e"]["Text"] = [[JUMPSYTLE]];
+LMG2L["TextButton_1e"]["Position"] = UDim2.new(0, 358, 0, 152);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_1f"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_1f"]["TextSize"] = 15;
+LMG2L["TextButton_1f"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245) 55
+LMG2L["TextButton_1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_1f"]["Size"] = UDim2.new(0, 594, 0, 42);
+LMG2L["TextButton_1f"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_1f"]["Text"] = [[C00LKIDD]];
+LMG2L["TextButton_1f"]["Position"] = UDim2.new(0, 8, 0, 204);
+
+
+-- Players.XrBLOXER.PlayerGui.ScreenGui.Frame.Frame.TextButton
+LMG2L["TextButton_20"] = Instance.new("TextButton", LMG2L["Frame_e"]);
+LMG2L["TextButton_20"]["TextSize"] = 15;
+LMG2L["TextButton_20"]["BackgroundColor3"] = Color3.fromRGB(245, 245, 245);
+LMG2L["TextButton_20"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_20"]["Size"] = UDim2.new(0, 594, 0, 42);
+LMG2L["TextButton_20"]["BorderColor3"] = Color3.fromRGB(165, 165, 165);
+LMG2L["TextButton_20"]["Text"] = [[THIS IS SPARTA]];
+LMG2L["TextButton_20"]["Position"] = UDim2.new(0, 8, 0, 252);
+
+
+return LMG2L["ScreenGui_1"]
